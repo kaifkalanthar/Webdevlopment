@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color:#FFD600;
+}
+
+body {
+  background: #EDEDED;
+  font-family: 'poppins';
+  margin: 0em;
+}
+
+.nav-bar {
+  background: white;
+}
+
+.nav-bar .logo {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 6em;
+  padding-top: 0.5em;
+}
+
+.nav-bar .logo span {
+  color: var(--primary-color);
+}
+
+.nav-bar .go-prime {
+  color: white;
+  padding-left: 2em;
+  background: var(--primary-color);
+  border-radius: 40em;
+  margin-right: 1em;
+}
+
+.nav-bar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.nav-bar li {
+  padding-right: 2em;
+  display: inline-block;
+}
+
+.nav-bar ul .primary-nav {
+  padding-right: -6em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.hero {
+  padding-bottom: 1.5em;
+}
+
+.hero .subheader {
+  padding: 8em 0 0 7.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: 000000;
+  opacity: 55%;
+}
+
+.hero .header {
+  padding: -2em 0 0.5em 3em;
+  font-weight: bold;
+  font-size: 3.5em;
+  margin-left: 2.4em;
+}
+
+.hero .try {
+  background: var(--primary-color);
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 30em;
+  padding: .6em 1.3em;
+  margin-left: 4em;
+  margin-bottom: 2em;
+  padding-top: -2em;
+  cursor: pointer;
+}
+
+.hero .container {
+  margin-top: -3em;
+}
+
+.hero .container .hero-img img {
+  width: 40%;
+  height: 90%;
+  margin-top: -28em;
+  margin-left: -3em;
+  padding-left: 41em;
+}
+
+section.feature-section {
+  background: black;
+}
+
+section.feature-section ul {
+  color: blanchedalmond;
+  list-style-image: url(../images/bullet.svg);
+  padding: 5em 1em 5em 4em;
+  margin: 0 auto 5em auto;
+  width: 80%;
+  line-height: 1em;
+  position: relative;
+  margin-bottom: -1em;
+}
+
+section.feature-section img {
+  margin: -75em 0 0 27em;
+}
+
+section.feature-section li {
+  padding-bottom: 1.5em;
+}
+
+.register-feature {
+  background: whitesmoke;
+  margin-top: -4.4em;
+}
+
+.register-feature .containner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.register-feature .containner .input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.register-feature .containner .about {
+  padding-top: 7em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  opacity: 50;
+}
+
+.register-feature .containner .about p {
+  font-weight: bold;
+  font-size: 2em;
+  opacity: 100%;
+}
+
+.register-feature .containner h1 {
+  opacity: 50%;
+  color: black;
+  font-weight: bold;
+  font-size: 4em;
+  margin-top: 0.3em;
+}
+
+.register-feature .containner h2 {
+  opacity: 70%;
+  font-size: -1em;
+}
+
+.register-feature .containner p {
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  opacity: 80%;
+}
+
+.register-feature p.talk {
+  font-weight: bold;
+  font-size: 4em;
+  padding-top: 1em;
+}
+
+.register-feature .input {
+  margin-left: 4em;
+}
+
+input, textarea {
+  width: 80%;
+  padding: .8em;
+  border: 1px grey solid;
+  border-radius: .3em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 2em;
+}
+
+input[text="name"] {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
